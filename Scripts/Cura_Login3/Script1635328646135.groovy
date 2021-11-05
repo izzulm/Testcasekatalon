@@ -31,14 +31,15 @@ WebUI.click(findTestObject('Object Repository/Cura_Test01/Page_CURA Healthcare S
 WebUI.click(findTestObject('Object Repository/Cura_Test01/Page_CURA Healthcare Service/a_Login'))
 
 //looping
-for(def rowNum = 1; rowNum <= findTestData("Data1").getRowNumbers(); rowNum++ ) {
-	
-	WebUI.setText(findTestObject('Object Repository/Cura_Test01/Page_CURA Healthcare Service/input_Username_username'), findTestData("Data1").getValue(1, 1))
-	
-	WebUI.setText(findTestObject('Object Repository/Cura_Test01/Page_CURA Healthcare Service/input_Password_password'), findTestData("Data1").getValue(2, 1))
-	
-	delay(3)
-	}
+for (def rowNum = 1; rowNum <= findTestData('Data1').getRowNumbers(); rowNum++) {
+    WebUI.setText(findTestObject('Object Repository/Cura_Test01/Page_CURA Healthcare Service/input_Username_username'), 
+        findTestData('Data1').getValue(1, 1))
+
+    WebUI.setText(findTestObject('Object Repository/Cura_Test01/Page_CURA Healthcare Service/input_Password_password'), 
+        findTestData('Data1').getValue(2, 1))
+
+    delay(3)
+}
 
 WebUI.click(findTestObject('Object Repository/Cura_Test01/Page_CURA Healthcare Service/button_Login'))
 
@@ -57,6 +58,8 @@ WebUI.setText(findTestObject('Object Repository/Cura_Test01/Page_CURA Healthcare
 WebUI.click(findTestObject('Object Repository/Cura_Test01/Page_CURA Healthcare Service/button_Book Appointment'))
 
 WebUI.click(findTestObject('Object Repository/Cura_Test01/Page_CURA Healthcare Service/a_Go to Homepage'))
+
+WebUI.waitForPageLoad(5)
 
 WebUI.closeBrowser()
 
