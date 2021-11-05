@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cura_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae2b13b5-e120-414f-a29f-b78bc4a61d9a</testCaseGuid>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>102acd07-cdf9-4712-9046-31d31cb6319d</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>39e7155c-a35e-4e4c-a15a-53e84193819b</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

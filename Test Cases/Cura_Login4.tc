@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cura_Login4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3177725-23be-47ec-9685-bf715ee25e7d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>06426afe-cb8a-4685-ad98-8d59bef155a3</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>75a45b8e-a80e-42db-8e19-36a4938fea59</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

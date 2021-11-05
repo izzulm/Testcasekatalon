@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cura_Login3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>444ddb42-6b68-4733-80b5-ae0e1d580de1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d1aeaa0e-2c08-4e1d-9a3d-4e4c01eb1dcd</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5f4898c6-5b54-429c-ba9d-adcb10e11fc5</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
